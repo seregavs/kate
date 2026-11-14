@@ -116,6 +116,7 @@ ipython_config.py
 # pdm.lock
 # pdm.toml
 test*.py
+*.csv
 .pdm-python
 .pdm-build/
 
