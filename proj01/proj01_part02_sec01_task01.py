@@ -28,7 +28,6 @@ df = df[df["category"].isin(['sport', 'politics', 'entertainment'])]
 df = df.sample(n=500, random_state=42).reset_index(drop=True)
 df["content"] = df["content"].apply(lambda x: re.sub(r"[^a-z]", " ", x.strip().lower()))
 df["words"] = df["content"].apply(clean_news)
-df["content"] = df["content"].apply(lambda x: re.sub(r"[^a-z]", " ", x))
 df["ID"] = df.index
 df.head()
 print(df)
