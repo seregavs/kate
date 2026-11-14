@@ -6,6 +6,8 @@ import nltk, re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
+# gdown 1ZHGyWJnhLcXhEbhDo6ALK0tsa73yJITn
+
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 # Initialize the stopwords
